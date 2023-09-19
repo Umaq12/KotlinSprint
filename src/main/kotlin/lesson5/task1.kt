@@ -1,10 +1,12 @@
 package lesson5
 
-fun main () {
+fun main() {
     println("Докажите, что вы настоящий пользователь, для этого решите пример")
-    println("1 + 1")
+    val firstNum = 1
+    val secondNum = 1
+    println("$firstNum + $secondNum")
     println("Введите ответ:")
-    var answerOfCustomer = readln().toInt()
+    val answerOfCustomer = readln().toInt()
     if (answerOfCustomer == 2) {
         println("Добро пожаловать!")
     } else {
